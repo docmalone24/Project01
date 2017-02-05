@@ -7,9 +7,20 @@ public class TestClass {
     private String testString;
     private int testInt;
 
-    public void TestClass()
+    public TestClass()
     {
-        String testString = new String("Hello World!");
-        int testInt = 4;
+        this.testString = "Hello World!";
+        this.testInt = 4;
     }
+
+    public String getTestString()
+    {
+        return testString;
+    }
+
+    public int getTestInt()
+    {
+        return testInt;
+    }
+
 }
